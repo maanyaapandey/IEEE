@@ -1,0 +1,20 @@
+IEEE SJSU — VERCEL READY
+
+This folder is the no-build static deployment version.
+It does NOT use Next.js, so the Next.js vulnerability error will not occur.
+
+EASIEST METHOD:
+1. Delete the files in your current GitHub repo (or make a new repo).
+2. Upload EVERYTHING inside this folder to the ROOT of the repo.
+   You should see index.html, events.html, membership.html, styles.css,
+   app.js, vercel.json, and the assets folder directly in GitHub.
+3. In Vercel, import/redeploy that repo.
+4. Framework Preset: choose "Other" if Vercel asks.
+5. Build Command: leave empty.
+6. Output Directory: leave empty.
+7. Deploy.
+
+Pages:
+/             Home
+/events       Events & Projects
+/membership   Membership
